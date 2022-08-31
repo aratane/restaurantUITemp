@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/history_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:choiceMode="singleChoice"
+        android:fastScrollEnabled="true" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:text="You have no orders yet! Start your orders now"
+        android:visibility="gone"
+        style="@style/textEmptyStyle"
+        android:textColor="@color/colorTextPrimaryLight"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+
+</FrameLayout>

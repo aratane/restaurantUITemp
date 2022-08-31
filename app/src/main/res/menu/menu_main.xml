@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="moun.com.deli.MainActivity">
+    <item
+        android:id="@+id/our_menu"
+        android:orderInCategory="100"
+        android:title="@string/our_menu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/hot_deals"
+        android:orderInCategory="200"
+        android:title="@string/hot_deals"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/location"
+        android:orderInCategory="300"
+        android:title="@string/locations"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/favorites"
+        android:orderInCategory="400"
+        android:title="@string/favorites"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/my_cart"
+        android:orderInCategory="500"
+        android:title="@string/my_cart"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="600"
+        android:title="@string/login"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="600"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+</menu>

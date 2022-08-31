@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding">8dp</dimen>
+    <dimen name="titlePadding">4dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="menuMargin">8dp</dimen>
+    <dimen name="layoutMargin">4dp</dimen>
+    <dimen name="textPaddingTop">2dp</dimen>
+    <dimen name="bigTextTitle">30sp</dimen>
+    <dimen name="textTitleStyle">24sp</dimen>
+    <dimen name="textSubtitleStyle">18sp</dimen>
+    <dimen name="textContentStyle">18dp</dimen>
+    <dimen name="imageButtonPadding">10dp</dimen>
+    <dimen name="titleDialogPadding">10dp</dimen>
+    <dimen name="layoutDialogMargin">10dp</dimen>
+    <dimen name="buttonDialogMargin">6dp</dimen>
+    <dimen name="buttonCloseDialogMargin">40dp</dimen>
+    <dimen name="buttomDialogPadding">20dp</dimen>
+    <dimen name="gridHeight">150dp</dimen>
+    <dimen name="gridWidth">150dp</dimen>
+    <dimen name="hotImageContentHeight">300dp</dimen>
+</resources>

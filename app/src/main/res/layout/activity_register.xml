@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="16dp">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/fullname_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:id="@+id/name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/windowBackgroud"
+                    android:drawableLeft="@mipmap/ic_account_circle_white_24dp"
+                    android:drawablePadding="20dp"
+                    android:ems="10"
+                    android:hint="Username"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding"
+                    android:singleLine="true"
+                    android:textColor="@color/colorTextPrimaryLight"
+                    android:textColorHighlight="@color/gray"
+                    android:textColorHint="@color/colorTextPrimaryLight" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/email_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:id="@+id/email"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/windowBackgroud"
+                    android:drawableLeft="@mipmap/ic_email_white_24dp"
+                    android:drawablePadding="20dp"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/padding"
+                    android:singleLine="true"
+                    android:textColor="@color/colorTextPrimaryLight"
+                    android:textColorHighlight="@color/gray"
+                    android:textColorHint="@color/colorTextPrimaryLight" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/address_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:id="@+id/address"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/windowBackgroud"
+                    android:drawableLeft="@mipmap/ic_home_white_24dp"
+                    android:drawablePadding="20dp"
+                    android:ems="10"
+                    android:hint="Address"
+                    android:inputType="text"
+                    android:padding="@dimen/padding"
+                    android:textColor="@color/colorTextPrimaryLight"
+                    android:textColorHighlight="@color/gray"
+                    android:textColorHint="@color/colorTextPrimaryLight" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/phone_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:id="@+id/phone"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/windowBackgroud"
+                    android:drawableLeft="@mipmap/ic_phone_white_24dp"
+                    android:drawablePadding="20dp"
+                    android:ems="10"
+                    android:hint="Phone Number"
+                    android:inputType="phone"
+                    android:padding="@dimen/padding"
+                    android:singleLine="true"
+                    android:textColor="@color/colorTextPrimaryLight"
+                    android:textColorHighlight="@color/gray"
+                    android:textColorHint="@color/colorTextPrimaryLight" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/password_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:id="@+id/password"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/windowBackgroud"
+                    android:drawableLeft="@mipmap/ic_lock_white_24dp"
+                    android:drawablePadding="20dp"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/padding"
+                    android:singleLine="true"
+                    android:textColor="@color/colorTextPrimaryLight"
+                    android:textColorHighlight="@color/gray"
+                    android:textColorHint="@color/colorTextPrimaryLight" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/selector_button"
+                android:id="@+id/register_btn"
+                android:clickable="true"
+                android:focusable="true"
+                android:text="Register"
+                android:textColor="@color/colorTextPrimaryLight" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

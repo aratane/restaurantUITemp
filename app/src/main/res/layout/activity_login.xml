@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="16dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:background="@drawable/deli_logo_header"
+                android:scaleType="fitCenter" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/username_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:id="@+id/username"
+                    android:background="@color/windowBackgroud"
+                    android:drawableLeft="@mipmap/ic_person_outline_white_24dp"
+                    android:drawablePadding="20dp"
+                    android:ems="10"
+                    android:hint="Username"
+                    android:inputType="textPersonName"
+                    android:padding="@dimen/padding"
+                    android:singleLine="true"
+                    android:textColor="@color/colorTextPrimaryLight"
+                    android:textColorHighlight="@color/gray"
+                    android:textColorHint="@color/colorTextPrimaryLight" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/password_input_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:id="@+id/password"
+                    android:background="@color/windowBackgroud"
+                    android:drawableLeft="@mipmap/ic_lock_outline_white_24dp"
+                    android:drawablePadding="20dp"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/padding"
+                    android:singleLine="true"
+                    android:textColor="@color/colorTextPrimaryLight"
+                    android:textColorHighlight="@color/gray"
+                    android:textColorHint="@color/colorTextPrimaryLight" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/selector_button"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="LoginClick"
+                android:text="Login"
+                android:textColor="@color/colorTextPrimaryLight" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/forgot_password"
+                    android:layout_marginRight="30dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="ResetPassword"
+                    android:text="Forgot Password?"
+                    android:textColor="@color/selector_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/register"
+                    android:clickable="true"
+                    android:onClick="RegisteronClick"
+                    android:text="Create an account"
+                    android:textColor="@color/selector_text" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

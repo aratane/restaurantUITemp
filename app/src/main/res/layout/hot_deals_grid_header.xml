@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/header_text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Delivery and takeaway only"
+    android:textColor="@color/colorTextPrimaryLight"
+    android:background="@color/colorPrimary"
+    android:padding="@dimen/padding"
+    android:gravity="center_horizontal"
+    style="@style/textTitleStyle"/>

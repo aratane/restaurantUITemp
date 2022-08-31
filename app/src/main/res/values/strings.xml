@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Deli</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="our_menu">Our Menu</string>
+    <string name="hot_deals">Hot Deals</string>
+    <string name="locations">Locations</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_order">Order</string>
+    <string name="favorites">Favorites</string>
+    <string name="grid_layout_manager">Grid Layout Manager</string>
+    <string name="linear_layout_manager">Linear Layout Manager</string>
+    <string name="show_as_grid">Show as grid</string>
+    <string name="show_as_list">Show as list</string>
+    <string name="google_api_key">Please add your Google Maps API key here</string>
+    <string name="delete_content_description">Delete</string>
+    <string name="long_lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="short_lorem">Lorem ipsum dolor sit amet. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="cart">Cart</string>
+    <string name="orders_tab">ORDERS</string>
+    <string name="favorites_tab">FAVORITES</string>
+    <string name="quantity">Quantity</string>
+    <string name="total">Total</string>
+    <string name="added_to_favorites">Added to favorites</string>
+    <string name="already_added_to_favorites">You have Already Added this item to your Favorites</string>
+    <string name="empty_cart">your cart is empty, start your order now!</string>
+    <string name="no_favorites_yet">You have no Favorites yet! long click on items in menu list to add your favorites.</string>
+    <string name="share_format" formatted="false">%s - %s BY DELI APP</string>
+    <string name="login">Log in</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">Register</string>
+    <string name="ok">Ok</string>
+    <string name="logout">Log out</string>
+    <string name="reset_password">To reset your password type your email and press the Reset password button.</string>
+    <string name="orders">Orders</string>
+    <string name="my_cart">My Cart</string>
+    <string name="share_this_deal">Share this deal</string>
+    <string name="description">Description:</string>
+    <string name="update">UPDATE</string>
+    <string name="add_to_cart">ADD TO CART</string>
+
+    <!-- MENU -->
+    <string name="breakfast">Breakfast</string>
+    <string name="sandwich">Sandwich</string>
+    <string name="burgers">Burgers</string>
+    <string name="pizza">Pizza</string>
+    <string name="salads">Salads</string>
+    <string name="drinks">Drinks</string>
+    <string name="sweets">Sweets</string>
+
+    <!-- SANDWICHES -->
+    <string name="grilled_chicken">GRILLED CHICKEN AND CHEDDAR</string>
+    <string name="krispy_haddock">Krispy Haddock Sandwich</string>
+    <string name="aussie_appetite">Aussie Appetite</string>
+    <string name="great_barrier">The Great Barrier Reef</string>
+    <string name="whitefish">Whitefish Sandwich</string>
+    <string name="shrimp">Shrimp Jammers</string>
+    <string name="breaded_chicken">Breaded Chicken Sandwich</string>
+    <string name="french_dip">The French Dip</string>
+
+    <!-- BURGERS -->
+    <string name="major">Major Roo</string>
+    <string name="fair">Fair Dinkum</string>
+    <string name="jack">Jack-A-Roo</string>
+    <string name="black">Black Bean Burger (100% meatless)</string>
+    <string name="endeavor">The Endeavor</string>
+    <string name="mexican">Mexican Burger</string>
+    <string name="pepperjack">Pepperjack Bacon Chipotle Burger</string>
+    <string name="texas">Texas Tangler Burger</string>
+
+
+    <!-- PIZZA -->
+    <string name="cheeze">Cheese Pizza</string>
+    <string name="margherita">Margherita</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="supteme">Supreme</string>
+    <string name="pepperoni">Pepperoni</string>
+    <string name="bbq">BBQ chicken</string>
+    <string name="hot">Hot n spicy</string>
+    <string name="greek">Greek</string>
+
+    <!-- SALADS -->
+    <string name="uptown">UPTOWN SALAD</string>
+    <string name="mediterranean">MEDITERRANEAN SALAD</string>
+    <string name="farmhouse">FARMHOUSE SALAD</string>
+    <string name="chicken">CHICKEN SALAD SALAD</string>
+    <string name="wreck">A WRECK SALAD</string>
+    <string name="chickpea">CHICKPEA VEGGIE SALAD</string>
+
+    <!-- DESSERTS -->
+    <string name="cookie">Cookie Bites</string>
+    <string name="brownies">Brownies</string>
+    <string name="fresh_baked">Fresh-Baked Cookies</string>
+    <string name="raspberry">Raspberry Cheesecake</string>
+    <string name="chocolate">Chocolate or Strawberry Sundae</string>
+    <string name="fudgie">Fudgie Wudgie Chocolate Cake</string>
+
+    <!-- DRINKS -->
+    <string name="orange">Orange</string>
+    <string name="earl">Earl Grey Lemonade</string>
+    <string name="iced_tead">Iced Tea</string>
+    <string name="coffee">Coffee</string>
+    <string name="hot_tea">Hot Tea</string>
+    <string name="bottle">1.25 Bottle</string>
+    <string name="water">Water</string>
+
+
+    <!-- DEALS -->
+    <string name="deal_1">DEAL 1:  FOR 1 PERSON</string>
+    <string name="deal_2">DEAL 2:  FOR 2 PERSON</string>
+    <string name="deal_3">DEAL 3:  FOR 1 PERSON</string>
+    <string name="deal_4">DEAL 4:  FOR 3 PERSON</string>
+    <string name="deal_5">DEAL 5:  FOR 1 PERSON</string>
+    <string name="deal_6">DEAL 5:  FOR 4 PERSON</string>
+    <string name="deal_description">1 Chicken pasta, 1 HOUSE SALAD, 2 BURGER (MEDIUM), 2pc garlic bread, 1 cold drink.</string>
+
+
+
+</resources>

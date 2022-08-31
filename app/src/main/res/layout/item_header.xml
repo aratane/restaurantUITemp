@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/header_card_view"
+    style="@style/FlatCardView.Header"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/numb_of_items"
+        android:paddingBottom="8dp"
+        android:gravity="center"
+        android:text="YOU HAVE 3 ITEMS IN YOUR CART"
+        style="@style/textContentStyle"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>

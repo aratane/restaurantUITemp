@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/breakfast"
+            android:icon="@mipmap/ic_restaurant_menu_white_24dp"
+            android:title="@string/our_menu" />
+        <item
+            android:id="@+id/hot_deals"
+            android:icon="@mipmap/ic_whatshot_white_24dp"
+            android:title="@string/hot_deals" />
+        <item
+            android:id="@+id/location"
+            android:icon="@mipmap/ic_location_on_white_24dp"
+            android:title="@string/locations" />
+
+    </group>
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cart"
+            android:icon="@mipmap/ic_shopping_cart_white_24dp"
+            android:title="@string/my_cart" />
+        <item
+            android:id="@+id/favorites"
+            android:icon="@mipmap/ic_favorite_white_24dp"
+            android:title="@string/favorites" />
+
+        <item
+            android:id="@+id/orders"
+            android:icon="@mipmap/ic_history_white_24dp"
+            android:title="@string/orders" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/windowBackgroudLight"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="16dp">
+
+
+        <TextView
+            android:id="@+id/checkout_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="User Email"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/checkout_user_email"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            style="@style/FlatCardView"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:padding="@dimen/padding"
+            android:singleLine="true"
+            android:text="..."
+            android:textColor="@color/colorTextSecondary" />
+
+        <TextView
+            android:id="@+id/checkout_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="User Phone Number"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/checkout_user_phone"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            style="@style/FlatCardView"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:padding="@dimen/padding"
+            android:text="..."
+            android:textColor="@color/colorTextSecondary" />
+
+        <TextView
+            android:id="@+id/checkout_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Shipping Address"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/checkout_shipping_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:clickable="false"
+            android:cursorVisible="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            style="@style/FlatCardView"
+            android:padding="@dimen/padding"
+            android:text="..."
+            android:textColor="@color/colorTextSecondary" />
+
+
+
+        <TextView
+            android:id="@+id/checkout_notes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Notes"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/checkout_info_notes"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            style="@style/FlatCardView"
+            android:padding="@dimen/padding"
+            android:hint="Enter some notes"
+            android:textColor="@color/colorTextSecondary" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/order_now"
+            android:layout_gravity="center"
+            android:text="ORDER NOW"
+            android:textColor="@android:color/white"
+            android:onClick="orderNow"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/selector_button"/>
+
+    </LinearLayout>
+
+</ScrollView>

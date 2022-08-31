@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackgroudLight"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/hot_deaL_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hotImageContentHeight"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/items3" />
+
+
+        <LinearLayout
+            android:id="@+id/linear_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/hot_deaL_image"
+            android:background="@color/colorAccent"
+            android:gravity="right">
+
+            <ImageButton
+                android:id="@+id/hot_deal_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/selector_icons_hot"
+                android:clickable="true"
+                android:contentDescription="Favorites"
+                android:focusable="true"
+                android:padding="@dimen/imageButtonPadding"
+                android:src="@mipmap/ic_share_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/hot_deal_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/selector_icons_hot"
+                android:clickable="true"
+                android:contentDescription="Favorites"
+                android:padding="@dimen/imageButtonPadding"
+                android:src="@mipmap/ic_shopping_cart_white_24dp" />
+
+            <ImageButton
+                android:id="@+id/hot_deal_favorite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/selector_icons_hot"
+                android:clickable="true"
+                android:contentDescription="Favorites"
+                android:focusable="true"
+                android:padding="@dimen/imageButtonPadding"
+                android:src="@null" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linear_bottom"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hot_deal_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="@dimen/bigTextTitle"
+                tools:text="HOT DEALS 1" />
+
+            <TextView
+                android:id="@+id/hot_deal_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="@dimen/textPaddingTop"
+                android:text="DESCRIPTION"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="@dimen/textTitleStyle" />
+
+            <TextView
+                android:id="@+id/hot_deal_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:paddingBottom="@dimen/textPaddingTop"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="@dimen/textPaddingTop"
+                android:text="000"
+                android:textColor="@color/colorTextPrimaryLight"
+                android:textSize="@dimen/bigTextTitle" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

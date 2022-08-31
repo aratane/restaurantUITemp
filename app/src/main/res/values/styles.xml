@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/colorTextPrimaryLight</item>
+        <item name="android:textColorHint">@color/colorTextPrimaryLight</item>
+        <item name="colorControlActivated">@color/gray</item>
+        <item name="colorControlHighlight">@color/gray</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
+    </style>
+
+    <!-- Branded Lanch -->
+    <style name="AppTheme.BrandedLaunch" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/branded_launch</item>
+    </style>
+
+    <!-- Custom Dialog Animation -->
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+    <!-- Text styles -->
+    <style name="textTitleStyle">
+        <item name="android:textSize">@dimen/textTitleStyle</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+    </style>
+
+    <style name="textSubtitleStyle">
+        <item name="android:textSize">@dimen/textSubtitleStyle</item>
+        <item name="android:textColor">@color/colorTextSecondary</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+        <item name="android:paddingTop">@dimen/textPaddingTop</item>
+    </style>
+
+    <style name="textEmptyStyle">
+        <item name="android:textColor">@color/colorTextSecondary</item>
+        <item name="android:textSize">@dimen/abc_text_size_headline_material</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="textContentStyle">
+        <item name="android:textSize">@dimen/textContentStyle</item>
+        <item name="android:textAppearance">@style/textAppearanceContentNormal</item>
+    </style>
+    <style name="textAppearanceContentNormal">
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <!-- Card styles -->
+    <style name="BaseFlatCardView">
+        <item name="android:paddingTop">@dimen/padding</item>
+        <item name="android:paddingLeft">@dimen/padding</item>
+        <item name="android:paddingRight">@dimen/padding</item>
+    </style>
+    <style name="FlatCardView" parent="BaseFlatCardView">
+        <item name="android:background">@drawable/card</item>
+    </style>
+    <style name="FlatCardView.Header">
+        <item name="android:background">@drawable/header_card</item>
+        <item name="android:foreground">@drawable/abc_item_background_holo_light</item>
+    </style>
+
+
+
+    <!-- Text input layout -->
+    <style name="counterText">
+        <item name="android:textColor">@color/colorTextPrimaryLight</item>
+    </style>
+    <style name="counterOverride">
+        <item name="android:textColor">@color/colorTextPrimaryLight</item>
+    </style>
+
+
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

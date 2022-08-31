@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/meat_container"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginBottom="@dimen/layoutMargin"
+    android:layout_marginLeft="@dimen/layoutMargin"
+    android:layout_marginRight="@dimen/layoutMargin"
+    android:orientation="horizontal"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/menu_image"
+        android:background="@color/windowBackgroud"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ImageView
+        android:id="@+id/menu_image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/items1"
+        android:scaleType="centerCrop"
+        android:layout_gravity="left|center_vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginLeft="65dp"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:layout_gravity="left|center_vertical">
+
+        <TextView
+            android:id="@+id/menu_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="7"
+            android:text="Title"
+            android:singleLine="true"
+            android:textColor="@color/colorTextPrimaryLight"
+            style="@style/textTitleStyle"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:src="@mipmap/ic_keyboard_arrow_right_white_24dp" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
